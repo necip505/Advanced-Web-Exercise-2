@@ -1,0 +1,38 @@
+# ── Environment & secrets ─────────────────────────────
+.env
+.env.*
+auth.json
+
+# ── Dependencies ──────────────────────────────────────
+/vendor/
+/node_modules/
+
+# ── Laravel / framework files (not part of this exercise) ─
+app/
+artisan
+bootstrap/
+composer.json
+composer.lock
+config/
+database/
+package.json
+phpunit.xml
+public/
+resources/
+routes/
+storage/
+tests/
+vite.config.js
+.editorconfig
+.gitattributes
+README.md
+
+# ── Scratch / temp files ──────────────────────────────
+raw_page.html
+raw_page2.html
+test_scraper.php
+
+# ── OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
